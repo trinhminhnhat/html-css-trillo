@@ -16,7 +16,9 @@
 <body>
     <div class="container">
         <header class="header">
-            <img src="img/logo.png" alt="Logo" class="logo">
+            <a href="#">
+                <img src="img/logo.png" alt="Logo" class="logo">
+            </a>
 
             <form action="#" class="search">
                 <input type="text" class="search__input" placeholder="Search hotels">
@@ -48,7 +50,48 @@
         </header>
         <div class="content">
             <nav class="sidebar">
-                Navigation
+                <ul class="side-nav">
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-home"></use>
+                                <span>Hotel</span>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                                <span>Flight</span>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-key"></use>
+                                <span>Car rental</span>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-map"></use>
+                                <span>Tours</span>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="legal">
+                    Built by <a href="https://github.com/trinhminhnhat" target="_blank" class="legal__link">Trịnh Minh
+                        Nhật</a>.<br> Learned from a <a href="https://www.udemy.com/course/advanced-css-and-sass"
+                        target="_blank" class="legal__link">Advanced CSS and Sass</a> course taught by <a
+                        href="https://twitter.com/jonasschmedtman" target="_blank" class="legal__link">Jonas
+                        Schmedtmann</a>.
+                </div>
             </nav>
             <main class="hotel-view">
                 Hotel View
