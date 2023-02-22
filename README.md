@@ -9,7 +9,6 @@ A responsive web design using flex layout.
 ## 🚀 Technologies Used
 
 - node-sass 8.0.x
-- concat 1.0.x
 - autoprefixer 10.4.x
 
 ## 📖 References
