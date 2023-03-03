@@ -2,6 +2,10 @@
 
 A responsive web design using flex layout.
 
+![Web's preview](./img/banner.png)
+
+Live: [**https://trinhminhnhat.github.io/html-css-trillo**](https://trinhminhnhat.github.io/html-css-trillo)
+
 ## ⚓ Environment
 
 - Node 19.3.0
